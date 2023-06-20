@@ -106,7 +106,6 @@
                 </form>
                 <a href="/pricelist/" class="menu-item__desktop semibold ">Price List</a>
                 <a href="/contact-us/" class="menu-item__desktop semibold ">Contact Us</a>
-                <a href="/accounts/login/" class="button font-white">Login</a>
             </div>
             <div class="menu-list__mobile">
                 <div class="menu-item__mobile">
@@ -168,43 +167,6 @@
         });
     });
     </script>
-    <section class="splide" id="hero__slider">
-        <div class="position-relative section__width banner-p-0-mobile">
-            <div class="splide__track">
-                <div class="splide__list">
-
-                    <div class="splide__slide">
-                        <div class="banner__item"
-                            style="--background-image-mobile: url('https://storage.googleapis.com/asto-stg/media/banners/Banner_HSR_Z03OYYR.jpg'); --background-image-desktop: url('https://storage.googleapis.com/asto-stg/media/banners/Banner_HSR_Z03OYYR.jpg');">
-                        </div>
-                    </div>
-
-                    <div class="splide__slide">
-                        <div class="banner__item"
-                            style="--background-image-mobile: url('https://storage.googleapis.com/asto-stg/media/banners/banner-1-desktop-with-text.png'); --background-image-desktop: url('https://storage.googleapis.com/asto-stg/media/banners/banner-1-desktop-with-text.png');">
-                        </div>
-                    </div>
-
-                    <div class="splide__slide">
-                        <div class="banner__item"
-                            style="--background-image-mobile: url('https://storage.googleapis.com/asto-stg/media/banners/banner-2-desktop-with-text.png'); --background-image-desktop: url('https://storage.googleapis.com/asto-stg/media/banners/banner-2-desktop-with-text.png');">
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="splide__arrows" id="splide-instruction-arrows">
-                <button class="splide__arrow splide__arrow--prev">
-                    <img src="https://storage.googleapis.com/asto-stg/static/images/icons/chevron-left-white.svg"
-                        alt="chevron-left-white">
-                </button>
-                <button class="splide__arrow splide__arrow--next">
-                    <img src="https://storage.googleapis.com/asto-stg/static/images/icons/chevron-right-white.svg"
-                        alt="chevron-right-white">
-                </button>
-            </div>
-        </div>
-    </section>
     @yield('content')
     <footer class="footer__container">
         <div class="section__width">
